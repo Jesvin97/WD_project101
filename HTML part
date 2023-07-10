@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+    <head>
+        <title>Yatra:Your Trip</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <img src="GCU SEM 2\WD\Project wd/logo.jpg" alt="Yatra Logo" class="logo">
+            <a href="#" class="brand">Yatra </a>
+            <div class="menu-btn"></div>
+            <div class ="navigation">
+                <div class="navigation-items">
+                    <a href ="#">Home</a>
+                    <a href ="#">About</a>
+                    <a href ="#">Explore</a>
+                    <a href ="#">Gallery</a>
+                    <a href ="#">Contact</a>
+                </div>
+            </div>
+        </header>
+        <section class="home">
+            <div class "Content">
+                <h1>Wonderful.<br><span>Island</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime neque, deserunt odit odio perspiciatis voluptas at veritatis quasi saepe pariatur obcaecati dolor est minima doloremque, tenetur vero aperiam officia labore.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="media-icons">
+                <a href="https://www.instagram.com/jesvin_saji_photography/"> <i class= "fab fa-instagram"></i></a>
+                <a href="https://twitter.com/TravelAndLove"> <i class= "fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+        });
+        </script>
+    </body>
+</html>
